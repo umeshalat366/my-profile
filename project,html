@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h2>Project Details</h2>
+     </head>
+</html>
+<body>
+    <hr>
+  <h3>Name: <u>Student Management</u></h3>
+  <h3>
+    <strong><u>Environment:</u></strong>
+    <mark>
+      Angular 8,Typescript,JavaScript (ES6),HTML5, CSS,Boostrap,GitHub,Desktop
+      Github,Agile and JIRA, IDE - VS Code
+    </mark>
+  </h3>
+  <h3>
+    <strong>Team Size:</strong> 06 &nbsp; &nbsp;&nbsp;&nbsp;              <strong>Duration</strong>
+    <i>2021-1<sup>st</sup> July till <u>Present</u></i>
+  </h3>
+   <strong>Project Description:</strong> &nbsp;This project is mainly used for student management in colleges, where It helps to manage student record like 
+    student registration, student update information and to see all his or her academic activities like score card,attendance.
+  <h2><strong>Roles and Responsibilities:</strong></h2>
+  <h3>
+    &nbsp;Designed and implemented the user interface using HTML.5 and CSS</br>
+    Work closely with backend developers for code integration </br>
+    Idetifying and troubleshooting issues with frond end code </br>
+    Worked on GIT as a version control</br>
+    Used JIRA for bug tracking</br>
+    implemented project using Agile SCRUM
+    methodology, Involved in daily stand up meetings,sprint retrospective</br>
+    Involved in fixing technical issues
+  </h3>
+</body>
