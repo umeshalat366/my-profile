@@ -12,18 +12,40 @@
         border: 2px solid rgb(29, 1, 10);
         border-collapse: collapse;
       }
+      h2 {
+        color: darkred;
+      }
+      #personal {
+        color: aqua;
+        background-color: rgb(9, 6, 2);
+      }
+      #contact {
+        color: green;
+        background-color: burlywood;
+      }
+      #technology {
+        color: rebeccapurple;
+        background-color: burlywood;
+      }
+      #academic {
+        color: red;
+        background-color: orange;
+      }
+      .contact {
+        padding-right: 10px;
+      }
     </style>
   </head>
   <body>
-    <h2>My Personal Details</h2>
+    <h2 id="personal">My Personal Details</h2>
 
     <img src="assets/dev2.png" alt="Profie Photo" <br />
     <p><b>Name:</b> &nbsp; Umesh Alat</p>
-    <h2>Contact Details</h2>
-    <p><strong>Mobile:</strong> 9359 7224 19</p>
+    <h2 id="contact">Contact Details</h2>
+    <p class="contact"><strong>Mobile:</strong> 9359 7224 19</p>
     <p><strong>Email:</strong> umeshalat366@gmail.com</p>
     <hr />
-    <h2>My Technology Stack</h2>
+    <h2 id="technology">My Technology Stack</h2>
     <ul>
       <li>HTML5</li>
       <li>CSS</li>
@@ -33,7 +55,7 @@
     </ul>
     <table>
       <tbody>
-        <h2>Academics Details</h2>
+        <h2 id="academic">Academics Details</h2>
       </tbody>
       <thead>
         <tr>
