@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap"
+      rel="stylesheet"/>
+      <style>
+        h2,label{
+            font-family: "Roboto", sans-serif;
+        }
+        input {
+            border-radius: 10px;
+            
+            border-radius: 10px;
+            padding: 10px;
+            color: cadetblue;
+            font-weight: bolder;
+            font-size: large;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            font-family: "Signika Negative", sans-serif;
+        }
+    
+        
+        #reset,#register{
+            font-family: "Poppins", sans-serif;
+            border-radius: 10px;
+        }
+        body{
+            background-color: lightblue;
+        }
+      </style>
+  </head>
+  <body>
+    
+    <h2>Student Registration Form</h2>
+    <table>
+      <form>
+        <tr>
+          <td><label>First Name</label></td>
+          <td><input placeholder="Only Capitals"</td>
+        </tr>
+        <tr>
+          <td><label>Last Name</label></td>
+          <td><input placeholder="Only Caps"</td>
+        </tr>
+        <tr>
+          <td><label>Age</label></td>
+          <td><input placeholder="Only age>=18 allowed"</td>
+        </tr>
+        <tr>
+          <td><label>Name of your country</label></td>
+          <td><input type="text" value="India" readonly /></td>
+        </tr>
+        <tr>
+          <td><label>Email</label></td>
+          <td><input type="text"</td>
+        </tr>
+        <tr>
+          <td><label>Mobile</label></td>
+          <td><input type="tel"</td>
+        </tr>
+        <tr>
+          <td><label>Date of Birth</label></td>
+          <td><input type="date"</td>
+        </tr>
+        <tr>
+          <td><label>Select Available for discussion</label></td>
+          <td><input type="week"</td>
+        </tr>
+        <tr>
+          <td><label>Suitable Time</label></td>
+          <td><input type="time"</td>
+        </tr>
+        <tr>
+          <td><label>Select Gender</label></td>
+          <td>
+            <input type="radio" name="Gender" /><label>Male</label>
+            <input type="radio" name="Gender" /><label>Female</label>
+            <input type="radio" name="Gender" /><label>Other</label>
+          </td>
+        </tr>
+          <td>
+            <label>Technlogy Stack</label>
+          </td>
+          
+          <td><input type="checkbox" name=""><label>C</label>
+        <input type="checkbox" name=""><label>CPP</label>
+          <input type="checkbox" name=""><label>Java</label>
+          <input type="checkbox" name=""><label>Angular</label>
+          <input type="checkbox" name=""><label>React</label>
+          <input type="checkbox" name=""><label>DevOps</label>
+          <input type="checkbox" name=""><label>CI/CD Tools</label></td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><input type="text"></td>
+            
+        </tr>
+        <tr>
+            <td><button type="Register" id="register">Register</button></td>
+            <td><button type="Reset" id="reset">Reset</button></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
