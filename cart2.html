@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <style>
+      .container1 {
+        display: inline-block;
+        border-radius: 5px;
+        border: 2px solid rgb(211, 204, 204);
+        width: 15%;
+        margin-left: 60px;
+        position: relative;
+        top: 25px;
+      }
+      .container2 {
+        display: inline-block;
+        border-radius: 5px;
+        border: 2px solid rgb(211, 204, 204);
+        width: 15%;
+        margin-left: 50px;
+        position: static;
+      }
+      .container3 {
+        display: inline-block;
+        border-radius: 5px;
+        border: 2px solid rgb(211, 204, 204);
+        width: 15%;
+        margin-left: 50px;
+        position: relative;
+        top: 25px;
+      }
+      .box1 {
+        display: inline-block;
+        color: rgb(249, 246, 246);
+        background-color: rgb(6, 124, 6);
+        font-size: large;
+        font-weight: bolder;
+        padding-top: 10px;
+        padding-left: 95px;
+        padding-right: 92px;
+        padding-bottom: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      .box2 {
+        display: inline-block;
+        color: rgb(249, 246, 246);
+        background-color: rgb(182, 4, 7);
+        font-size: large;
+        font-weight: bolder;
+        padding-top: 10px;
+        padding-left: 80px;
+        padding-right: 77px;
+        padding-bottom: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        margin-left: 50px;
+      }
+      .box3 {
+        display: inline-block;
+        color: rgb(249, 246, 246);
+        background-color: rgb(6, 124, 6);
+        font-size: large;
+        font-weight: bolder;
+        padding-top: 10px;
+        padding-left: 80px;
+        padding-right: 78px;
+        padding-bottom: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      button {
+        display: inline-block;
+        margin-top: 2px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 10px;
+        color: rgb(249, 246, 246);
+        background-color: rgb(6, 123, 6);
+        padding-top: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 5px;
+        border-radius: 7px;
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      li {
+        list-style: none;
+      }
+      li::before {
+        content: "✅";
+      }
+      .list::before {
+        content: "❌";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <span class="box1">Basic</span>
+      <ul>
+        <li>Hosting</li>
+        <li class="list">Domain</li>
+        <li>1GB Space</li>
+        <li class="list">Free SSL</li>
+        <li>1 Website Host</li>
+      </ul>
+      <h2>$5</h2>
+      <button type="button">Buy Now</button>
+    </div>
+
+    <div class="container2">
+      <span class="box2">Standard</span>
+      <ul>
+        <li>Hosting</li>
+        <li>Domain</li>
+        <li>1GB Space</li>
+        <li class="list">Free SSL</li>
+        <li>1 Website Host</li>
+      </ul>
+      <h2>$10</h2>
+      <button type="button">Buy Now</button>
+    </div>
+
+    <div class="container3">
+      <span class="box3">Standard</span>
+      <ul>
+        <li>Hosting</li>
+        <li>Domain</li>
+        <li>1GB Space</li>
+        <li>Free SSL</li>
+        <li>1 Website Host</li>
+      </ul>
+      <h2>$20</h2>
+      <button type="button">Buy Now</button>
+    </div>
+  </body>
+</html>
